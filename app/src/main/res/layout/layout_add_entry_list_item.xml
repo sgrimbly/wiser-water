@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_entry_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:padding="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/diary_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hygiene" />
+
+    <TextView
+        android:id="@+id/diary_heading"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/diary_image"
+        android:layout_marginStart="117dp"
+        android:text="@string/header"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/diary_info"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/diary_heading"
+        android:layout_centerVertical="true"
+        android:text="@string/more_info"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/diary_total"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/diary_image"
+        android:layout_alignStart="@+id/diary_heading"
+        android:text="TOTAL: 0 litres"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/add_entry_minus"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/diary_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/minus"
+        android:src="@drawable/minus_black" />
+
+    <ImageButton
+        android:id="@+id/add_entry_plus"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/add_entry_minus"
+        android:layout_alignTop="@+id/diary_image"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/plus"
+        android:src="@drawable/plus_black" />
+
+</RelativeLayout>

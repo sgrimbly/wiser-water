@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Water Saving</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="welcome">WELCOME TO WISER WATER</string>
+    <string name="home_tagline">Helping you save water - one drop at a time!</string>
+    <string name="home_total">TOTAL USAGE: 0 LITRES</string>
+
+    <string name="home">Home</string>
+    <string name="diary">Diary</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="date">DATE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Wiser Water</string>
+    <string name="nav_header_subtitle">www.wiserwater.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="litres">litres</string>
+    <string name="total_usage">TOTAL USAGE</string>
+
+    <string name="title_activity_diary">Diary</string>
+    <string name="diary_shower">SHOWER</string>
+    <string name="diary_toilet">TOILET</string>
+    <string name="diary_hygiene">HYGIENE</string>
+    <string name="diary_laundry">LAUNDRY</string>
+    <string name="diary_dishes">DISHES</string>
+    <string name="diary_drinking">DRINKING</string>
+    <string name="diary_cooking">COOKING</string>
+    <string name="diary_cleaning">CLEANING</string>
+    <string name="diary_other">OTHER</string>
+    <string name="diary_shower_info">Your shower usage.</string>
+    <string name="diary_toilet_info">Your toilet usage.</string>
+    <string name="diary_hygiene_info">Your hygiene usage.</string>
+    <string name="diary_laundry_info">Your laundry usage.</string>
+    <string name="diary_dishes_info">Your dishes usage.</string>
+    <string name="diary_drinking_info">Your drinking usage.</string>
+    <string name="diary_cooking_info">Your cooking usage.</string>
+    <string name="diary_cleaning_info">Your cleaning usage.</string>
+    <string name="diary_other_info">Your other usage.</string>
+
+    <string name="title_activity_add_entry">Add Diary Entry</string>
+    <string name="add_entry_shower">SHOWER</string>
+    <string name="add_entry_toilet">TOILET</string>
+    <string name="add_entry_hygiene">HYGIENE</string>
+    <string name="add_entry_laundry">LAUNDRY</string>
+    <string name="add_entry_dishes">DISHES</string>
+    <string name="add_entry_drinking">DRINKING</string>
+    <string name="add_entry_cooking">COOKING</string>
+    <string name="add_entry_cleaning">CLEANING</string>
+    <string name="add_entry_other">OTHER</string>
+    <string name="add_entry_shower_info">Your shower usage.</string>
+    <string name="add_entry_toilet_info">Your toilet usage.</string>
+    <string name="add_entry_hygiene_info">Your hygiene usage.</string>
+    <string name="add_entry_laundry_info">Your laundry usage.</string>
+    <string name="add_entry_dishes_info">Your dishes usage.</string>
+    <string name="add_entry_drinking_info">Your drinking usage.</string>
+    <string name="add_entry_cooking_info">Your cooking usage.</string>
+    <string name="add_entry_cleaning_info">Your cleaning usage.</string>
+    <string name="add_entry_other_info">Your other usage.</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="header">Header</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="more_info">More info here.</string>
+    <string name="minus">minus</string>
+    <string name="plus">plus</string>
+    <string name="logo">Logo</string>
+    <string name="add_entry_header">TOTAL: 0</string>
+
+</resources>
